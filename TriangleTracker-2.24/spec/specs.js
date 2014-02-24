@@ -28,7 +28,7 @@ describe('Triangle', function() {
       testTriangle.sideOne = 9;
       testTriangle.sideTwo = 4;
       testTriangle.sideThree = 4;
-      testTriangle.invalid().should.equal(false);
+      testTriangle.invalid().should.equal(true);
     });
   });  
 });
